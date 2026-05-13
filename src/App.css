@@ -1,0 +1,15 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body, #root { height: 100%; font-family: system-ui, Arial, sans-serif; }
+
+.app-scroll { display: flex; flex-direction: column; min-height: 100vh; background: #fafaf9; }
+
+.header {
+  position: sticky; top: 0; z-index: 10;
+  display: flex; align-items: center;
+  padding: 0.75rem 2rem;
+  background: #fff; border-bottom: 1px solid #e5e5e5;
+}
+.header h1 { font-size: 17px; font-weight: 600; color: #1a1a1a; }
+.header-sub { font-size: 12px; color: #888; }
+
+.main-content { max-width: 960px; margin: 0 auto; width: 100%; }
